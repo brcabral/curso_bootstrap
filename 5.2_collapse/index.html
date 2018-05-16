@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Usando o collapse</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Usando o Collapse</h1>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><a href="#collapse-simples" data-toggle="collapse" data-parent="accordion">Abrir / Fechar</a></h4>
+        </div>
+        <div class="panel-body">
+          <p class="collapse" id="collapse-simples">
+            Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis!
+            Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis?
+            Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis,
+            mais bolis eu num gostis.
+          </p>
+        </div>
+      </div>
+
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4><a href="#PainelUm" data-toggle="collapse" data-parent="#accordion">Painel um</a></h4>
+          </div>
+          <div class="panel-collapse collapse in" id="PainelUm">
+            <div class="panel-body">
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis!
+                Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis?
+                Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis,
+                mais bolis eu num gostis.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4><a href="#PainelDois" data-toggle="collapse" data-parent="#accordion">Painel dois</a></h4>
+          </div>
+          <div class="panel-collapse collapse" id="PainelDois">
+            <div class="panel-body">
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis!
+                Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis?
+                Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis,
+                mais bolis eu num gostis.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4><a href="#PainelTres" data-toggle="collapse" data-parent="#accordion">Painel três</a></h4>
+          </div>
+          <div class="panel-collapse collapse" id="PainelTres">
+            <div class="panel-body">
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosti di mum que vai caçá sua turmis!
+                Cevadis im ampola pa arma uma pindureta. Si u mundo tá muito paradis?
+                Toma um mé que o mundo vai girarzis! Interessantiss quisso pudia ce receita de bolis,
+                mais bolis eu num gostis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

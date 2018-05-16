@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;  /* vh = viewport height = 100% */
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('https://unsplash.it/g/1500/800?random');
+
+  /* Caso não encontrar a primeira imagem (site fora do ar), será usado a segunda
+  background-image: url('https://picsum.photos/g/1500/800?random'),
+                    url('imagem_local/abstract-mosaic-background.png');
+  */
+}
+
+.login-form {
+  color: #fff;
+  margin-top: 50vh;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, .9);
+
+  transform: translateY(-50%);
+}
+
+.login-form h1 {
+  margin: 0 0 5px;
+}
+
+.login-form h2 {
+  margin: 0 0 30px;
+  font-size: 1em;
+}
+
+
+/* Pode ser feito dessa forma a centralização do login, sem usar o bootstrap */
+/* .login-form {
+  /* faz o elemento flutuar na tela */
+  position: absolute;
+
+  /* centraliza tanto verticalmente quanto horizontalmente */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Responsividade: Quando a tela tiver menos de 400px, a largura do elemento pega 95% da tela. */
+  width: 400px;
+  max-width: 95vh;
+} */
